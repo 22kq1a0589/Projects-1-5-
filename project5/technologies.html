@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+     <title>Navigation Menu Example</title>
+    <style>
+        /* CSS for styling the navigation menu */
+        body{
+           
+            background-color: goldenrod;
+            box-sizing: border-box;
+
+        }
+        h1{
+            color: antiquewhite;
+        }
+        h2{
+            color:aquamarine;
+        }
+        .myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit:cover;
+  z-index: -1;
+}
+        @media screen and  (min-width:750px) {
+            body{
+                
+                font-style:oblique;
+                background-color: antiquewhite;
+            }
+        }
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            body{
+                
+                font-style:oblique;
+                background-color: blueviolet;
+            
+            }
+        }
+        @media screen and  (min-width:1024px) {
+            body{
+                
+                background-color:red;
+            }
+        } 
+        @media screen and  (min-width:1024px) {
+            body{
+                
+                
+                background-color:darkseagreen;
+            }
+        } 
+        nav {
+           
+           background-color: white;
+           color: black;
+           font-size: 20px;
+       }
+       nav ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+       }
+       nav ul li {
+           display: inline;
+           margin-right: 20px;
+       }
+       nav ul li a {
+           color: black;
+           text-decoration: none;
+       }
+       nav ul li a:hover {
+           text-decoration: underline;
+       }
+    </style>
+    
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            
+            <li><a href="C:\Users\ARSHIYA\OneDrive\Desktop\UIdevelopment\project5\homes.html">Home</a></li>
+            <li><a href="C:\Users\ARSHIYA\OneDrive\Desktop\UIdevelopment\project5\about.html">About</a></li>
+            <li><a href="C:\Users\ARSHIYA\OneDrive\Desktop\UIdevelopment\project5\services.html">Services</a></li>
+            <li><a href="C:\Users\ARSHIYA\OneDrive\Desktop\UIdevelopment\project5\portfolio.html">Portfolio</a></li>
+            <li><a href="C:\Users\ARSHIYA\OneDrive\Desktop\UIdevelopment\project5\contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+      
+    <h1><center>****WELCOME TO CSS TUTORIAL****</center></h1>
+    <h2><center>This is a sample website to demonstrate css.</center></h2>
+    <video autoplay muted loop class="myVideo">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
